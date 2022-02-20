@@ -39,11 +39,6 @@ def get_quote():
             to_currency_code=to_currency_code
         )
 
-        # rate_result = utils.__even_rate(
-        #     from_currency_code=from_currency_code,
-        #     to_currency_code=to_currency_code
-        # )
-
         if rate_result is not None:
             return {
                 "exchange_rate": rate_result[0],

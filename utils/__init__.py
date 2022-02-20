@@ -1,8 +1,7 @@
 from .utils import (
     __best_rate,
     __get_response_frankfuter_rate,
-    __get_response_exchange_rate,
-    __get_response_for_even_rate
+    __get_response_exchange_rate
 )
 
 from .validation import (
